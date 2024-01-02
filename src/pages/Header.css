@@ -1,0 +1,47 @@
+html, body {
+    /* background-color: #1e3d3dde !important; */
+    margin: 0;
+    padding: 0;
+  }
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; 
+    text-align: center; 
+}
+
+.typewriter-heading {
+    overflow: hidden;
+    border-right: 0.15em solid rgb(7, 7, 6);
+    
+    margin: 0;
+    letter-spacing: 0.15em;
+    
+}
+
+.typewriter-headi {
+
+    overflow: hidden;
+    
+    margin: 10;
+    letter-spacing: 0.15em;
+    }
+
+@keyframes typing-heading {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes typing-subheading {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}

@@ -1,0 +1,129 @@
+.container-form {
+  width: 400px;
+  margin-left: 440px;
+ 
+ }
+body {
+    /* display: flex; */
+    justify-content: center;
+    /* background-image: url(/public/img/cb.jpg);
+    */
+    height: auto !important;
+    background-color: #393b2c !important; 
+  }
+.contact-me {
+  justify-content: center !important;
+
+  display: flex;
+
+}
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+}
+input {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  background-color: rgb(239, 243, 243);
+}
+textarea {
+    background-color: rgb(246, 248, 248);
+}
+input:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+textarea:focus {
+  border: 2px solid rgb(14, 31, 27);
+}
+
+label {
+  margin-top: 1rem;
+  color: rgb(14, 13, 13);
+  font-weight: bold; 
+  margin-bottom: 10px;
+  font-weight: bold; 
+
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: rgb(51, 156, 86);
+  color: rgb(10, 10, 10);
+  border: none;
+  font-weight: bold; 
+ 
+  margin-left: 10px;
+  padding: 10px;
+}
+.contact-header {
+    color: #229c3d;
+
+    font-weight: bold; 
+    justify-content: center;
+  }
+
+
+  input[type="submit"] {
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0fe219;
+    color: #131111;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #48d0e2 !important;
+    color: #070606;
+  }
+
+  
+  
+  .submit-button {
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+
+    color: #070606;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #e85d0b;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container-form {
+     
+      margin-left: 20px !important;
+     
+     }
+
+  
+  }

@@ -1,0 +1,71 @@
+body {
+  /* background-color: #1e3d3dde !important; */
+  margin: 0;
+  padding: 0;
+}
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;    text-align: center;
+    color: rgb(215, 203, 243);
+    /* background-color: #1e3d3dde !important ; */
+    
+}
+
+.typewriter-heading {
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 0.15em;
+    animation: typing-heading 1.5s steps(40, end), blink-caret 0.75s infinite;
+}
+
+.typewriter-headi {
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 10;
+    letter-spacing: 0.15em;
+    animation: typing-subheading 3s steps(40, end), blink-caret-subheading 3s infinite;
+}
+
+@keyframes typing-heading {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes typing-subheading {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+@keyframes blink-caret-subheading {
+    from, to {
+        border-color: transparent;
+    }
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}

@@ -1,0 +1,41 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+   }
+
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.year {
+    text-align: center;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.center-text {
+    text-align: center;
+    
+}
+
+.h2 {
+    color: black; }
+
+.resume-section-content .subheading h3 .from-text {
+    color: rgb(37, 15, 15);  }
+
+.resume-section-content .subheading h3.from-institution-text {
+    color: rgb(241, 237, 237) !important;
+    font-weight: bold; }
+
+
+.mb-5 {
+    text-align: center;
+}
