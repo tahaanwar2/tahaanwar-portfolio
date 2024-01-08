@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tahaanwar-portfolio/static/css/main.2e85a63f.css",
-    "main.js": "/tahaanwar-portfolio/static/js/main.6ace4915.js",
+    "main.js": "/tahaanwar-portfolio/static/js/main.ea7963e9.js",
     "static/media/tahapic.png": "/tahaanwar-portfolio/static/media/tahapic.9d307bdec89155ed1517.png",
     "static/media/fa-solid-900.ttf": "/tahaanwar-portfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/TAHA-Resume.pdf": "/tahaanwar-portfolio/static/media/TAHA-Resume.42e3eb502f03023e8016.pdf",
@@ -16,10 +16,10 @@
     "static/media/fa-v4compatibility.woff2": "/tahaanwar-portfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/tahaanwar-portfolio/index.html",
     "main.2e85a63f.css.map": "/tahaanwar-portfolio/static/css/main.2e85a63f.css.map",
-    "main.6ace4915.js.map": "/tahaanwar-portfolio/static/js/main.6ace4915.js.map"
+    "main.ea7963e9.js.map": "/tahaanwar-portfolio/static/js/main.ea7963e9.js.map"
   },
   "entrypoints": [
     "static/css/main.2e85a63f.css",
-    "static/js/main.6ace4915.js"
+    "static/js/main.ea7963e9.js"
   ]
 }
