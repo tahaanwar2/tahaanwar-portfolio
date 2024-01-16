@@ -1,0 +1,132 @@
+
+.container {
+    height: 100%;
+    /* width: 100%; */
+    /* background: linear-gradient; */
+    
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+   
+    text-align: center !important;
+    margin-left: 450px;
+
+  }
+  
+  .inputfield {
+    /* min-width: 100%; */
+    background-color: #a9d6a9;
+    /* box-shadow: 1px 1px rgba(5, 4, 4, 0.2); */
+    padding: 10px;
+    border-radius: 30px;
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 15px !important; */
+    margin-bottom: 6px;
+    width: 300px;
+    margin-top: 5px;
+    
+  }
+  .input-text {
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: -20px;
+    width: 100%;
+    
+   
+  }
+  .input-sign {
+    padding: 20px;
+margin-top: 45px;
+/* margin-bottom: -20px !important; */
+margin-left: -50px;
+width: 300px;
+/* border-radius: 30px; */
+    
+
+  }
+
+.input-email {
+    margin-top: -10px !important;
+}
+  .input-password {
+    margin-top: 20px !important;
+ padding: 8px;
+ /* margin-bottom: -40px !important; */
+ border-radius: 30px;
+    margin-bottom: -10px;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100px !important;
+    border-radius: 30px !important;
+
+  }
+
+  .input-pass {
+    margin-top: 10px;
+ /* padding: 8px; */
+ /* margin-bottom: -40px !important; */
+    /* border-radius: 30px ; */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 300px !important;
+    border-radius: 30px !important;
+
+  }
+
+
+  .input-conpassword {
+    margin-top: 10px;
+ /* padding: 8px; */
+ /* margin-bottom: -40px !important; */
+    border-radius: 30px !important;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: -10px;
+    border-radius: 30px !important;
+
+  }
+.submit-btn {
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px !important;
+    width: 40%; 
+    background-color: green;
+    margin-top: -10px;
+    margin-bottom: -30px ;
+    }
+.account-para {
+    text-decoration: none;
+    font-size: 20px !important; 
+    color: black;
+  }
+.link {
+    text-decoration: none;
+    font-size: 25px !important; 
+    color: rgb(49, 17, 231);
+  }
+      
+@media (max-width: 640px) {
+.container {
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+   margin-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .container {
+      justify-content: center;
+      align-items: center;
+  
+     margin-left: 20% !important;
+    }
+  
+  }

@@ -69,7 +69,8 @@ html, body {
 }
 
 
-@media screen and (max-width: 960px) {
+
+@media screen and (max-width: 664px) {
   .menu-icon {
     display: block;
   }
@@ -80,14 +81,19 @@ html, body {
     position: absolute;
     background-color: #0c0b0b;
     top: 80px;
-    left: 0;
+    /* left: 10; */
     text-align: center;
     border-top: 1px solid #bdb2b2;
     border-bottom: 1px solid #c9bebe;
-    width: 90%; 
+    width: 88%; 
     opacity: 0.9;
     visibility: hidden;
     z-index: 1; 
+margin-left: 10px !important;
+    align-items: center;
+    justify-content: center;
+
+
   }
 
   .nav-menu.active {
@@ -95,7 +101,7 @@ html, body {
   }
 
   .nav-item {
-    margin-right: 0;
+    margin-right: 15px;
     margin-bottom: 10px;
   }
   
@@ -107,4 +113,85 @@ html, body {
     font-size: 1rem;
     font-weight: bold;
   }
+}
+
+
+@media screen and (max-width: 960px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #0c0b0b;
+    top: 80px;
+    /* left: 10; */
+    text-align: center;
+    border-top: 1px solid #bdb2b2;
+    border-bottom: 1px solid #c9bebe;
+    width: 88%; 
+    opacity: 0.9;
+    visibility: hidden;
+    z-index: 1; 
+    margin-left: 2% !important;
+
+
+  }
+
+  .nav-menu.active {
+    visibility: visible;
+  }
+
+  .nav-item {
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .nav-links {
+    display: block;
+    padding: 15px;
+    color: #eedfdf;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+
+/* Landscape (horizontal) orientation */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #0c0b0b;
+    top: 80px;
+    /* left: 10; */
+    text-align: center;
+    border-top: 1px solid #bdb2b2;
+    border-bottom: 1px solid #c9bebe;
+    width: 88%; 
+    opacity: 0.9;
+    visibility: hidden;
+    z-index: 1; 
+    margin-left: 50px !important;
+
+
+  }
+
+  .nav-menu.active {
+    visibility: visible;
+  }
+
+  .nav-item {
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  
 }

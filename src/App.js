@@ -19,15 +19,18 @@ import UserAuthContext from "./pages/UserAuthContext";
 const App = () => {
   return (
     <UserAuthContext>
-      <BrowserRouter>
+      <BrowserRouter basename="/tahaanwar-portfolio">
         <Routes>
-
-          <Route path="/" element={<Navigate to="/login" />} />
+          <Route
+            index
+            element={<Navigate to="Login" />}
+          />
+          <Route path="/" element={<Navigate to="/Login" />} />
 
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
 
-          {/* <Route index element={<Home />} /> */}
+          <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "./UserAuthContext";
 import { Form, Input, Modal, Button } from "antd";
-import "./Login.css";
+import "./Signup.css";
 const SignUp = () => {
     const navigate = useNavigate();
     const { SignUp } = useAuth();
@@ -79,13 +79,13 @@ const SignUp = () => {
         <div className="">
             {err && <p className="error">{err}</p>}
 
-            <div className="container">
+            <div className="container ">
                 <form onSubmit={SubmitHandler}>
                     <div className="inputfield">
                         <h2>Registration Form</h2>
                     </div>
                     <div className="inputfield">
-                        <Form.Item
+                        <Form.Item className="input-email"
 
                             label={<span style={{ fontWeight: "bold" }}>Email</span>}
                             value={user.email}
@@ -114,6 +114,8 @@ const SignUp = () => {
                     </div>
                     <div className="inputfield">
                         <Form.Item>
+                            <br />
+
                             <Button className="submit-btn" type="primary" htmlType="submit">
                                 Signup
                             </Button>

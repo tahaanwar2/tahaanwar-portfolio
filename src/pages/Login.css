@@ -1,15 +1,15 @@
-
-  .container {
+/* @media screen and (min-width: 768px) { */
+  .container-log {
     height: 100%;
     /* width: 100%; */
     /* background: linear-gradient; */
-    
+    margin-top: 100px;
     display: flex;
     justify-content: center !important;
     align-items: center !important;
    
     text-align: center !important;
-    margin-left: 450px;
+    margin-left: 500px;
 
   }
   
@@ -30,14 +30,19 @@
     
   }
   .input-text {
-    margin-top: 10px;
+    margin-top: 20px !important;
     padding: 20px;
     border-radius: 30px;
     margin-bottom: -20px;
-    width: 100%;
+    width: 120% !important;
+    display: flex;
+    margin-left: -50px;
     
    
   }
+  /* .email-text {
+margin-top: -20px;
+  } */
   .input-sign {
     padding: 10px;
 margin-top: 15px;
@@ -45,46 +50,7 @@ margin-bottom: -20px !important;
     
     
   }
-  .input-password {
-    margin-top: 10px;
- padding: 8px;
- /* margin-bottom: -40px !important; */
- border-radius: 30px;
-    margin-bottom: -10px;
-    display: flex;
-    /* flex-direction: column; */
-    width: 100%;
-    
 
-  }
-
-  .input-pass {
-    margin-top: 10px;
- /* padding: 8px; */
- /* margin-bottom: -40px !important; */
-    /* border-radius: 30px ; */
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    
-
-  }
-
-
-  .input-conpassword {
-    margin-top: 10px;
- /* padding: 8px; */
- /* margin-bottom: -40px !important; */
-    border-radius: 30px !important;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin-top: -10px;
-    
-
-  }
 .submit-btn {
     align-items: center;
     justify-content: center;
@@ -94,6 +60,41 @@ margin-bottom: -20px !important;
     margin-top: -10px;
     margin-bottom: -30px ;
     }
+  
+
+    
+.input-text {
+  margin-top: 40px !important;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: -20px;
+  width: 120% !important;
+  display: flex;
+  margin-left: -50px;
+  
+ 
+}
+/* .input-sign {
+  padding: 10px;
+margin-top: 15px;
+margin-bottom: -20px !important;
+  
+  
+} */
+.input-passwordtext {
+  margin-top: 40px !important;
+padding: 6px;
+/* margin-bottom: -40px !important; */
+border-radius: 30px;
+  margin-bottom: -20px;
+  display: flex;
+  /* flex-direction: column; */
+ width: 130% !important;
+ margin-left: -75px;
+  
+
+}
+
 .account-para {
     text-decoration: none;
     font-size: 20px !important; 
@@ -104,11 +105,65 @@ margin-bottom: -20px !important;
     font-size: 25px !important; 
     color: rgb(49, 17, 231);
   }
-      
+
 @media (max-width: 640px) {
-.container {
+.container-log {
+  margin-top: 50px !important;
     justify-content: center;
     align-items: center;
-   margin-left: 50px !important;
+   margin-left: -257px !important;
   }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .container-log {
+    justify-content: center;
+    align-items: center;
+margin-left: 40% !important;
+    margin-right: -200px !important;
+  }
+
+
+/* 
+@media (max-width: 640px) {
+.container-log {
+  margin-top: 50px !important;
+    justify-content: center;
+    align-items: center;
+   margin-right: 175% !important;
+  }
+}
+
+.input-text {
+  margin-top: 30px !important;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: -20px;
+  width: 120% !important;
+  display: flex;
+  margin-left: -50px;
+  
+ 
+}
+.input-sign {
+  padding: 10px;
+margin-top: 15px;
+margin-bottom: -20px !important;
+  
+  
+}
+.input-passwordtext {
+  margin-top: 30px !important;
+padding: 6px;
+/* margin-bottom: -40px !important; */
+/* border-radius: 30px;
+  margin-bottom: -20px;
+  display: flex; */
+  /* flex-direction: column; */
+ /* width: 130% !important;
+ margin-left: -75px;
+  
+
+} */
+
 }

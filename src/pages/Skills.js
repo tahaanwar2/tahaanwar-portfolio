@@ -17,7 +17,7 @@ function Skills() {
                     <section className="skills" id="skills">
                         <div className="grip-container">
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/React.png" alt="" className="left" />
+                                <img src="./img/React.png" alt="" className="left" />
                                 <div className="right">
                                     <h3> React</h3>
 
@@ -25,7 +25,7 @@ function Skills() {
                             </div>
 
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/Html.png" alt="" className="left" />
+                                <img src="./img/htmllogo.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>Html </h3>
 
@@ -33,21 +33,21 @@ function Skills() {
                             </div>
 
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/CSS.png" alt="" className="left" />
+                                <img src="./img/csslogo.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>CSS</h3>
 
                                 </div>
                             </div>
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/bo.png" alt="" className="left" />
+                                <img src="./img/bo.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>Bootstrap</h3>
 
                                 </div>
                             </div>
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/js.png" alt="" className="left" />
+                                <img src="./img/jslogo.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>JavaScript</h3>
 
@@ -57,19 +57,19 @@ function Skills() {
 
 
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/py.png" alt="" className="left" />
+                                <img src="./img/py.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>Python</h3>
 
                                 </div>
                             </div><div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/msql.png" alt="" className="left" />
+                                <img src="./img/msql.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>MySQL</h3>
 
                                 </div>
                             </div><div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/wp.png" alt="" className="left" />
+                                <img src="./img/wp.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>WordPress</h3>
 
@@ -77,14 +77,14 @@ function Skills() {
                             </div>
 
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/c.png" alt="" className="left" />
+                                <img src="./img/c.png" alt="" className="left" />
                                 <div className="right">
                                     <h3> C Language</h3>
                                 </div>
                             </div>
 
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/c++.jpg" alt="" className="left" />
+                                <img src="./img/c++.jpg" alt="" className="left" />
                                 <div className="right">
                                     <h3>C++</h3>
 
@@ -92,7 +92,7 @@ function Skills() {
                             </div>
 
                             <div className="boxs" style={{ marginTop: '20px' }}>
-                                <img src="/img/gd.png" alt="" className="left" />
+                                <img src="./img/gd.png" alt="" className="left" />
                                 <div className="right">
                                     <h3>Fundamental of Graphic Design</h3>
 
@@ -100,7 +100,7 @@ function Skills() {
                             </div>
 
                             <div className="boxs margin-top" style={{ marginTop: '20px' }}>
-                                <img src="/img/ts.jpg" alt="" className="left" />
+                                <img src="./img/ts.jpg" alt="" className="left" />
                                 <div className="right">
                                     <h3>Technical Support Fundamentals</h3>
 

@@ -1,5 +1,5 @@
-// UserAuthContext.js
-import React, { createContext, useContext, useState, useEffect } from "react";
+import { useContext, createContext, useState } from "react";
+import React from "react";
 import {
     createUserWithEmailAndPassword,
     onAuthStateChanged,
@@ -16,16 +16,11 @@ export const useAuth = () => {
 
 const UserAuthContext = ({ children }) => {
     const [currentuser, setuser] = useState();
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (user) => {
+    onAuthStateChanged(auth, (user) => {
+        if (user) {
             setuser(user);
-            setLoading(false);
-        });
-
-        return () => unsubscribe();
-    }, []);
+        }
+    });
 
     const profileInformation = (profile) => {
         return addDoc(collection(db, "profile"), profile);
@@ -43,12 +38,7 @@ const UserAuthContext = ({ children }) => {
         profileInformation,
         currentuser,
     };
-
-    return (
-        <UserContext.Provider value={value}>
-            {!loading && children}
-        </UserContext.Provider>
-    );
+    return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 };
 
 export default UserAuthContext;

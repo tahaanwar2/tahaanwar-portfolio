@@ -42,15 +42,22 @@ const Header = () => {
                     <img src={profileImage} alt="Profile" className="profile-image" />
                 </div>
                 <div className="profile-details">
-                    <h1 className="typewriter-h">{text}</h1>
+                    <h1 className="typewriter-h1">{text}</h1>
 
                     <h2 className="typewriter-h2">{subText}</h2>
+
+                    <br />
+
                     <div className="footer-data">
-                        <div className="para-container">
+                        <div className="fixed-para-container">
                             <p className="para-text">
+                                {/* <br />
+                                <br /> */}
                                 As a highly motivated and enthusiastic Software Engineer, I am committed to utilizing my technical skills and creativity to deliver high-quality software solutions. My passion for coding and learning new technologies has led me to pursue a career in software development. I am excited to continue growing as a developer and look forward to contributing to the success of your organization.
                             </p>
                         </div>
+                        <br />
+
                         <div className="cta-container">
 
                             <a href={resumePdf} download="TAHA-Resume.pdf" className="">Download CV</a>
@@ -59,19 +66,16 @@ const Header = () => {
                             </span></div>
                     </div>
                 </div>
+                <br />
                 <div className="prof-details">
                     <span className="me-4"></span>
                     <div className="mb-4">
-                        {/* <h3>Social Media:</h3> */}
-
-                        <br />
-                        {/* <div className="subheading mb-4 d-flex align-items-center"> */}
                         <a className="me-4" href="https://www.facebook.com/taha.anwar2?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                             <img
                                 className="img-fluid social-icon"
                                 src="./img/facebook.png"
                                 alt="Facebook Icon"
-                                style={{ width: "32px", height: "auto", marginLeft: "100px", marginRight: "20px", marginTop: "10x" }}
+                                style={{ width: "32px", height: "auto", marginLeft: "120px", marginRight: "10px", marginTop: "-2px" }}
                             />
                         </a>
                         <span className="me-4"></span>
@@ -80,7 +84,7 @@ const Header = () => {
                                 className="img-fluid social-icon"
                                 src="./img/github.png"
                                 alt="Github Icon"
-                                style={{ width: "46px", height: "auto", marginRight: "25px" }}
+                                style={{ width: "46px", height: "auto", marginRight: "10px" }}
                             />
                         </a>
                         <span className="me-4"></span>
@@ -89,7 +93,7 @@ const Header = () => {
                                 className="img-fluid social-icon"
                                 src="./img/linkedin.png"
                                 alt="LinkedIn Icon"
-                                style={{ width: "26px", height: "auto", marginRight: "25px" }}
+                                style={{ width: "26px", height: "auto", marginRight: "15px" }}
 
                             />
                         </a>
@@ -101,7 +105,7 @@ const Header = () => {
                                 className="img-fluid social-icon"
                                 src="./img/call.png"
                                 alt="call Icon"
-                                style={{ width: "26px", height: "auto", marginRight: "25px" }}
+                                style={{ width: "26px", height: "auto", marginRight: "15px" }}
 
                             />
                         </a>
@@ -121,7 +125,7 @@ const Header = () => {
                                 className="img-fluid social-icon"
                                 src="./img/yahoo.png"
                                 alt="Yahoo Icon"
-                                style={{ width: "26px", height: "auto", marginRight: "25px" }}
+                                style={{ width: "26px", height: "auto", marginRight: "15px" }}
 
                             />
                         </a>
@@ -132,12 +136,15 @@ const Header = () => {
                                 className="img-fluid social-icon"
                                 src="./img/yutb.png"
                                 alt="Yahoo Icon"
-                                style={{ width: "28px", height: "auto" }}
+                                style={{ width: "26px", height: "auto", marginRight: "15px" }}
                             />
                         </a>
                     </div>
+
                 </div>
+
             </div>
+
 
 
 

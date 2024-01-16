@@ -41,7 +41,7 @@ body {
     
   }
 .skills-container {
-  background-color: black !important;
+  /* background-color: black !important; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -58,31 +58,40 @@ body {
 
 .grip-container {
   display: grid;
-  background-color: black !important;
-  
+  /* background-color: black !important;
+   */
   grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 
   background-attachment: fixed;
   min-height: 366px;
   /* margin-left: 1px; */
-  padding: 20px 10px;
+  padding: 1px 10px;
   margin-bottom: 20px;
-  width: 100% !important;
+  width: 95% !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 10px;
 }
 
 .boxs {
   position: relative;
   display: flex;
-   align-items: center !important;
-     margin-top: 30px !important;
+  align-items: center !important;
+  margin-top: 30px !important;
   flex-direction: column;
   text-align: center;
   background-attachment: fixed;
-  border-radius: 10px;
+  border-radius: 80px;
   border: 2px solid #fff; 
+  background-color: #090a0a;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  padding: 10px;
+
+  /* width: 50%; */
+  /* padding: 10px 20px !important; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 h3 {
@@ -104,17 +113,24 @@ h3 {
   .skills-container {
       padding: 10px; 
   }
+  .skills-container {
+    width: 100px;
 
+  }  
   .grip-container {
       grid-template-columns: repeat(1, 1fr);
       gap: 10px;
-      padding: 20px; 
-      width: 100%;
+      /* padding: 20px;  */
+      width: 70% !important;
+      margin-left: 35px;
+      margin-top: 10px;
+  
   }
 
   .boxs {
-      padding: 0px;
+
       align-items: center !important;
+    width: 100%;
       /* margin-left: auto !important;
       margin-right: auto !important;
       margin-top: auto !important;

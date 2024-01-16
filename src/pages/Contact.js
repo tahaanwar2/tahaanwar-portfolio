@@ -7,12 +7,12 @@ import Navbar from '../pages/Navbar';
 const Contact = () => {
     const form = useRef();
     const [buttonText, setButtonText] = useState("Send");
-    const [setButtonColor] = useState("#f9690e");
+    const [buttonColor, setButtonColor] = useState("#125963");
 
     const sendEmail = (e) => {
         e.preventDefault();
         setButtonText("Sending");
-        setButtonColor("blue");
+        setButtonColor("#f9690e");
 
         const serviceID = "service_bbrqmg4";
         const templateID = "template_ckf45eb";
@@ -42,6 +42,7 @@ const Contact = () => {
             <div className="contact-form">
                 <h1 className="contact-me">Contact Me</h1>
                 <div className="container-form">
+
                     <form ref={form} onSubmit={sendEmail}>
                         <label>Name</label>
                         <input type="text" name="user_name" />
@@ -53,7 +54,8 @@ const Contact = () => {
                             type="submit"
                             value={buttonText}
                             className="submit-button"
-                        />
+                            style={{ backgroundColor: buttonColor }}
+                            onClick={(e) => sendEmail(e)} />
                     </form>
                 </div>
             </div>

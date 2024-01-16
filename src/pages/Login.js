@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Form, Input, Checkbox, Modal, Button } from "antd";
+import { Form, Input, Modal, Button } from "antd";
 import { useAuth } from "./UserAuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
+
 const Login = () => {
     const { UserLogin } = useAuth();
     const [user, setUser] = useState({
@@ -49,7 +50,7 @@ const Login = () => {
 
     return (
         <div className="">
-            <div className="container">
+            <div className="container-log">
                 <form onSubmit={SubmitHandler} className="form">
                     <div className="inputfield">
                         <h2>Login Form</h2>
@@ -57,7 +58,7 @@ const Login = () => {
                     </div>
 
                     <div className="inputfield">
-                        <Form.Item
+                        <Form.Item className="email-text"
                             label={<span style={{ fontWeight: "bold" }}>Email </span>}
                         >
                             <Input
@@ -70,11 +71,11 @@ const Login = () => {
                     </div>
 
                     <div className="inputfield">
-                        <Form.Item
+                        <Form.Item className="email-text"
                             label={<span style={{ fontWeight: "bold" }}>Password</span>}
                         >
                             <Input.Password
-                                className="input-password"
+                                className="input-passwordtext"
                                 value={user.password}
                                 name="password"
                                 onChange={UserHandler}
@@ -82,17 +83,11 @@ const Login = () => {
                         </Form.Item>
                     </div>
 
-                    <div className="inputfield">
-                        <Form.Item
-                            name="remember"
-                            valuePropName="checked"
-                        >
-                            <Checkbox className="remember">Remember me</Checkbox>
-                        </Form.Item>
-                    </div>
 
                     <div className="inputfield">
                         <Form.Item>
+                            <br />
+
                             <Button className="submit-btn" type="primary" htmlType="submit">
                                 Login
                             </Button>
@@ -102,7 +97,7 @@ const Login = () => {
                     <div className="inputfield">
                         <p className="account-para">Don't have an account?{" "}
                             <Link to="../signup" className="link">
-                                {"signup"}
+                                {"Signup"}
                             </Link>
                         </p>
                     </div>
