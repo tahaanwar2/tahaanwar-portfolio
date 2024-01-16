@@ -53,7 +53,9 @@ const Contact = () => {
                             type="submit"
                             value={buttonText}
                             className="submit-button"
-                            style={{ backgroundColor: buttonColor }}
+                            style={{ backgroundColor: buttonColor }} 
+                            onClick={sendEmail}
+    
                         />
                     </form>
                 </div>
