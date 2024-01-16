@@ -7,7 +7,7 @@ import Navbar from '../pages/Navbar';
 const Contact = () => {
     const form = useRef();
     const [buttonText, setButtonText] = useState("Send");
-    const [setButtonColor] = useState("#f9690e");
+    const [buttonColor, setButtonColor] = useState("#125963");
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -53,6 +53,7 @@ const Contact = () => {
                             type="submit"
                             value={buttonText}
                             className="submit-button"
+                            style={{ backgroundColor: buttonColor }}
                         />
                     </form>
                 </div>
