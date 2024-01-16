@@ -1,15 +1,16 @@
 .container-form {
   width: 400px;
-  margin-left: 440px;
+  margin-left: 540px;
  
  }
 body {
     /* display: flex; */
+    
     justify-content: center;
     /* background-image: url(/public/img/cb.jpg);
     */
     height: auto !important;
-    background-color: #393b2c !important; 
+    background-color: #42665e !important; 
   }
 .contact-me {
   justify-content: center !important;
@@ -25,7 +26,7 @@ form {
   font-size: 16px;
 }
 input {
-  width: 100%;
+  width: 70%;
   height: 35px;
   padding: 7px;
   outline: none;
@@ -41,8 +42,8 @@ input:focus {
 }
 
 textarea {
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 70%;
+  /* min-width: 100%; */
   width: 100%;
   max-height: 100px;
   min-height: 100px;
@@ -85,7 +86,7 @@ input[type="submit"] {
 
 
   input[type="submit"] {
-    width: 200px;
+    width: 100px;
     padding: 10px;
     margin-top: 10px;
     border: none;
@@ -109,21 +110,92 @@ input[type="submit"] {
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-
+    background-color: #0be80b !important;
     color: #070606;
     cursor: pointer;
   }
   
   .submit-button:hover {
-    background-color: #e85d0b;
+    background-color: #0be88c ;
   }
   
   @media screen and (max-width: 600px) {
     .container-form {
-     
-      margin-left: 20px !important;
+
+      margin-left: 40px !important;
      
      }
+     .form {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 10% !important;
+      font-size: 16px;
+    }
+    .input {
+      width: 100px !important;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+      background-color: rgb(239, 243, 243);
+    }
+    textarea {
+        background-color: rgb(246, 248, 248);
+    }
 
-  
+
+.input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0fe219;
+  color: #131111;
+  cursor: pointer;
+  margin-left: 120px;
+}
+  }
+
+
+  @media screen and (max-width: 767px) and (orientation: landscape) {
+    .container-form {
+
+      margin-left: 230px !important;
+     
+     }
+     .form {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 100% !important;
+      font-size: 16px;
+    }
+    .input {
+      width: 100% !important;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+      background-color: rgb(239, 243, 243);
+    }
+    textarea {
+        background-color: rgb(246, 248, 248);
+    }
+
+
+.input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0fe219;
+  color: #131111;
+  cursor: pointer;
+  margin-left: 120px;
+}
   }
