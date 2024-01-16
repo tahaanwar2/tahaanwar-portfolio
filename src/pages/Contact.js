@@ -12,8 +12,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         setButtonText("Sending");
-        
-
+        setButtonColor("#f9690e");
         const serviceID = "service_bbrqmg4";
         const templateID = "template_ckf45eb";
         const userID = "cwH3bJkhFRDixWgQW";
@@ -54,9 +53,7 @@ const Contact = () => {
                             value={buttonText}
                             className="submit-button"
                             style={{ backgroundColor: buttonColor }} 
-                            onClick={sendEmail}
-    
-                        />
+                           onClick={(e) => sendEmail(e)} />
                     </form>
                 </div>
             </div>
