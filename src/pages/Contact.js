@@ -12,7 +12,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         setButtonText("Sending");
-        setButtonColor("blue");
+        
 
         const serviceID = "service_bbrqmg4";
         const templateID = "template_ckf45eb";
