@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import profileImage from '../assests/tahapic.png';
-import resumePdf from '../assests/TAHA-Resume.pdf';
+import resumePdf from '../assests/Taha Anwar Resume .pdf';
 import { Link } from 'react-router-dom';
 import Navbar from '../pages/Navbar';
 
@@ -60,7 +60,7 @@ const Header = () => {
 
                         <div className="cta-container">
 
-                            <a href={resumePdf} download="TAHA-Resume.pdf" className="">Download CV</a>
+                            <a href={resumePdf} download="Taha Anwar Resume .pdf" className="">Download CV</a>
                             <span >
                                 <Link to="/contact" className="cta-link">Contact Me</Link>
                             </span></div>
